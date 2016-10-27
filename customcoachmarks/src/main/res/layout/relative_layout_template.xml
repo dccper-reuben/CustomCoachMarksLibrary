@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dccper.customcoachmarks.CoachBackgroundView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lbl_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"/>
+
+    <RelativeLayout
+        android:id="@+id/coach_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/img_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/arrow_center_up"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/lbl_content_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:text="content view"
+            android:visibility="visible"/>
+    </RelativeLayout>
+
+
+
+</com.dccper.customcoachmarks.CoachBackgroundView>
