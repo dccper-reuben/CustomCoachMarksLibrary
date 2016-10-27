@@ -111,7 +111,7 @@ Similarly the CoachMarkSequence will also notify its delegate on three occassion
     }
 
     @Override
-    public void onCoachMarkSequenceDidComplete(boolean wasskipped) {
+    public void onCoachMarkSequenceDidComplete(boolean wasSkipped) {
 
     }
 ~~~
