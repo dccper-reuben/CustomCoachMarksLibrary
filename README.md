@@ -101,17 +101,17 @@ Similarly the CoachMarkSequence will also notify its delegate on three occassion
 
 ~~~
     @Override
-    public void onCoachMarksWillDisplay(int i, CoachMark coachMark) {
+    public void onCoachMarksWillDisplay(int position, CoachMark coachMark) {
 
     }
 
     @Override
-    public void onCoachMarksWillDissappear(int i, CoachMark coachMark) {
+    public void onCoachMarksWillDissappear(int position, CoachMark coachMark) {
 
     }
 
     @Override
-    public void onCoachMarkSequenceDidComplete(boolean b) {
+    public void onCoachMarkSequenceDidComplete(boolean wasskipped) {
 
     }
 ~~~
